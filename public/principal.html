@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <title>Alura Typer</title>
     <link rel="stylesheet" href="css/libs/materialize.min.css">
     <link rel="stylesheet" href="css/libs/google-fonts.css">
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
-
 <body>
     <div class="container">
         <h1 class="center">Alura Typer</h1>
-        <p class="frase center">Claudio Henrique dos Santos venceu quebrada.</p>
+        <p class="frase center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
         <ul class="informacoes center">
             <li>
                 <i class="small material-icons icones">description</i>
-                <span id="tamanho-frase">30</span> palavras
+                <span id="tamanho-frase">5</span> palavras
             </li>
             <li>
                 <i class="small material-icons icones">query_builder</i>
@@ -26,12 +23,14 @@
             </li>
         </ul>
 
-        <textarea class="campo-digitacao" name="" id="" cols="30" rows="10"></textarea>
+        <textarea class="campo-digitacao" rows="8" cols ="40"></textarea>
+
         <div class="botoes">
-            <a class="btn-floating btn-large waves-effect waves-light red" id="botao-reiniciar">
+            <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
                 <i class="material-icons">restore</i>
             </a>
         </div>
+
         <ul class="center">
             <li><span id="contador-caracteres">0</span> caracteres</li>
             <li><span id="contador-palavras">0</span> palavras</li>
@@ -43,27 +42,20 @@
                 <thead>
                     <tr>
                         <th>Nome</th>
-                        <th>Número de palavras</th>
+                        <th>No. de palavras</th>
                         <th>Remover</th>
                     </tr>
                 </thead>
+                <tbody>
+
                 </tbody>
-                <tr>
-                    <td>Claudio</td>
-                    <td>10</td>
-                    <td>
-                        <a href="#" class="botao-remover">
-                            <i class="small material-icons">delete</i>
-                        </a>
-                    </td>
-                </tr>
             </table>
         </section>
     </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/placar.js"></script>
 
 </body>
-
 </html>
