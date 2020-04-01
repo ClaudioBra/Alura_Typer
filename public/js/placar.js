@@ -2,7 +2,7 @@ $("#botao-placar").click(mostraPlacar);
 
 function inserePlacar() {
     var corpoTabela = $(".placar").find("tbody");
-    var usuario = "Douglas"
+    var usuario = "Claudio"
     var numPalavras = $("#contador-palavras").text();
 
     var linha = novaLinha(usuario, numPalavras);
